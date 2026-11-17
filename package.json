@@ -1,0 +1,20 @@
+{
+  "name": "after-the-pyre-game",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 5177",
+    "build": "vite build",
+    "preview": "vite preview --port 4177"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "playwright-core": "^1.65.1",
+    "vite": "^7.1.12"
+  }
+}
